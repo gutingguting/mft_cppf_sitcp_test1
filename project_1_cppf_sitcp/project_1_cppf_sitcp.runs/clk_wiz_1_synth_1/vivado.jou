@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep 27 15:38:11 2024
+# Process ID: 18492
+# Current directory: C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/clk_wiz_1_synth_1
+# Command line: vivado.exe -log clk_wiz_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_1.tcl
+# Log file: C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/clk_wiz_1_synth_1/clk_wiz_1.vds
+# Journal file: C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/clk_wiz_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_1.tcl -notrace

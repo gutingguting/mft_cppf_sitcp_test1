@@ -1,0 +1,1175 @@
+
+*** Running vivado
+    with args -log ETH_1000BASEX.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ETH_1000BASEX.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source ETH_1000BASEX.tcl -notrace
+Command: synth_design -top ETH_1000BASEX -part xc7k70tfbg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Device 21-403] Loading part xc7k70tfbg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12336 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 809.301 ; gain = 178.207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX.vhd:157]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:96' bound to instance 'U0' of component 'ETH_1000BASEX_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:156]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+WARNING: [Synth 8-5640] Port 's_axi_aclk' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_resetn' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_awaddr' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_awvalid' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_awready' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_wdata' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_wvalid' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_wready' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_bresp' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_bvalid' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_bready' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_araddr' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_arvalid' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_arready' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_rdata' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_rresp' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_rvalid' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+WARNING: [Synth 8-5640] Port 's_axi_rready' is missing in component declaration [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:263]
+	Parameter C_ELABORATION_TRANSIENT_DIR bound to: BlankString - type: string 
+	Parameter C_COMPONENT_NAME bound to: ETH_1000BASEX - type: string 
+	Parameter C_RX_GMII_CLK bound to: TXOUTCLK - type: string 
+	Parameter C_FAMILY bound to: kintex7 - type: string 
+	Parameter C_IS_SGMII bound to: 0 - type: bool 
+	Parameter C_USE_TRANSCEIVER bound to: 1 - type: bool 
+	Parameter C_HAS_TEMAC bound to: 1 - type: bool 
+	Parameter C_USE_TBI bound to: 0 - type: bool 
+	Parameter C_USE_LVDS bound to: 0 - type: bool 
+	Parameter C_HAS_AN bound to: 0 - type: bool 
+	Parameter C_HAS_MDIO bound to: 0 - type: bool 
+	Parameter C_SGMII_PHY_MODE bound to: 0 - type: bool 
+	Parameter C_DYNAMIC_SWITCHING bound to: 0 - type: bool 
+	Parameter C_SGMII_FABRIC_BUFFER bound to: 1 - type: bool 
+	Parameter C_2_5G bound to: 0 - type: bool 
+	Parameter C_1588 bound to: 0 - type: integer 
+	Parameter B_SHIFTER_ADDR bound to: 10'b0101001110 
+	Parameter GT_RX_BYTE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'gig_ethernet_pcs_pma_v16_1_6' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/hdl/gig_ethernet_pcs_pma_v16_1_rfs.vhd:17482' bound to instance 'ETH_1000BASEX_core' of component 'gig_ethernet_pcs_pma_v16_1_6' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:438]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_transceiver' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:69' bound to instance 'transceiver_inst' of component 'ETH_1000BASEX_transceiver' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:550]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_transceiver' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:160]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_block_data_valid' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:437]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:80]
+	Parameter INITIALISE bound to: 2'b00 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg1' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:113]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg2' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:123]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg3' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:133]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg4' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:143]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg5' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:153]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_sync_reg6' to cell 'FD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_sync_block' (8#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:80]
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_reset_wtd_timer' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_reset_wtd_timer.vhd:70' bound to instance 'reset_wtd_timer' of component 'ETH_1000BASEX_reset_wtd_timer' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:444]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_reset_wtd_timer' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_reset_wtd_timer.vhd:81]
+	Parameter WAIT_TIME bound to: 24'b100011110000110100011000 
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_reset_wtd_timer' (9#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_reset_wtd_timer.vhd:81]
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_reset_sync' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:66' bound to instance 'reclock_encommaalign' of component 'ETH_1000BASEX_reset_sync' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:468]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_reset_sync' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:79]
+	Parameter INITIALISE bound to: 2'b11 
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync1' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:108]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync2' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:119]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync3' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:130]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync4' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:141]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync5' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:152]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync6' to cell 'FDP' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_reset_sync' (10#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:79]
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_reset_sync' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:66' bound to instance 'reclock_txreset' of component 'ETH_1000BASEX_reset_sync' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:477]
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_reset_sync' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_reset_sync.vhd:66' bound to instance 'reclock_rxreset' of component 'ETH_1000BASEX_reset_sync' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:486]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_GTWIZARD' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard.vhd:72' bound to instance 'gtwizard_inst' of component 'ETH_1000BASEX_GTWIZARD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:677]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_GTWIZARD' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard.vhd:219]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter EXAMPLE_USE_CHIPSCOPE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_GTWIZARD_init' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:75' bound to instance 'U0' of component 'ETH_1000BASEX_GTWIZARD_init' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard.vhd:377]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_GTWIZARD_init' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:228]
+	Parameter EXAMPLE_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter EXAMPLE_USE_CHIPSCOPE bound to: 0 - type: integer 
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_GTWIZARD_multi_gt' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_multi_gt.vhd:73' bound to instance 'gtwizard_i' of component 'ETH_1000BASEX_GTWIZARD_multi_gt' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:537]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_GTWIZARD_multi_gt' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_multi_gt.vhd:221]
+	Parameter WRAPPER_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter RX_DFE_KL_CFG2_IN bound to: 32'b00110000000100010100100010101100 
+	Parameter PMA_RSV_IN bound to: 32'b00000000000000011000010010000000 
+	Parameter GT_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter RX_DFE_KL_CFG2_IN bound to: 806439084 - type: integer 
+	Parameter PMA_RSV_IN bound to: 99456 - type: integer 
+	Parameter PCS_RSVD_ATTR_IN bound to: 48'b000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_GTWIZARD_GT' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_gt.vhd:72' bound to instance 'gt0_GTWIZARD_i' of component 'ETH_1000BASEX_GTWIZARD_GT' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_multi_gt.vhd:417]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_GTWIZARD_GT' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_gt.vhd:216]
+	Parameter GT_SIM_GTRESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter RX_DFE_KL_CFG2_IN bound to: 806439084 - type: integer 
+	Parameter PMA_RSV_IN bound to: 99456 - type: integer 
+	Parameter PCS_RSVD_ATTR_IN bound to: 48'b000000000000000000000000000000000000000000000000 
+	Parameter ALIGN_COMMA_DOUBLE bound to: FALSE - type: string 
+	Parameter ALIGN_COMMA_ENABLE bound to: 10'b0001111111 
+	Parameter ALIGN_COMMA_WORD bound to: 2 - type: integer 
+	Parameter ALIGN_MCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_MCOMMA_VALUE bound to: 10'b1010000011 
+	Parameter ALIGN_PCOMMA_DET bound to: TRUE - type: string 
+	Parameter ALIGN_PCOMMA_VALUE bound to: 10'b0101111100 
+	Parameter CBCC_DATA_SOURCE_SEL bound to: DECODED - type: string 
+	Parameter CHAN_BOND_KEEP_ALIGN bound to: FALSE - type: string 
+	Parameter CHAN_BOND_MAX_SKEW bound to: 1 - type: integer 
+	Parameter CHAN_BOND_SEQ_1_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_1 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_2 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CHAN_BOND_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CHAN_BOND_SEQ_2_USE bound to: FALSE - type: string 
+	Parameter CHAN_BOND_SEQ_LEN bound to: 1 - type: integer 
+	Parameter CLK_CORRECT_USE bound to: TRUE - type: string 
+	Parameter CLK_COR_KEEP_IDLE bound to: FALSE - type: string 
+	Parameter CLK_COR_MAX_LAT bound to: 36 - type: integer 
+	Parameter CLK_COR_MIN_LAT bound to: 33 - type: integer 
+	Parameter CLK_COR_PRECEDENCE bound to: TRUE - type: string 
+	Parameter CLK_COR_REPEAT_WAIT bound to: 0 - type: integer 
+	Parameter CLK_COR_SEQ_1_1 bound to: 10'b0110111100 
+	Parameter CLK_COR_SEQ_1_2 bound to: 10'b0001010000 
+	Parameter CLK_COR_SEQ_1_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_1_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_1 bound to: 10'b0110111100 
+	Parameter CLK_COR_SEQ_2_2 bound to: 10'b0010110101 
+	Parameter CLK_COR_SEQ_2_3 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_4 bound to: 10'b0000000000 
+	Parameter CLK_COR_SEQ_2_ENABLE bound to: 4'b1111 
+	Parameter CLK_COR_SEQ_2_USE bound to: TRUE - type: string 
+	Parameter CLK_COR_SEQ_LEN bound to: 2 - type: integer 
+	Parameter CPLL_CFG bound to: 24'b101111000000011111011100 
+	Parameter CPLL_FBDIV bound to: 4 - type: integer 
+	Parameter CPLL_FBDIV_45 bound to: 5 - type: integer 
+	Parameter CPLL_INIT_CFG bound to: 24'b000000000000000000011110 
+	Parameter CPLL_LOCK_CFG bound to: 16'b0000000111101000 
+	Parameter CPLL_REFCLK_DIV bound to: 1 - type: integer 
+	Parameter DEC_MCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_PCOMMA_DETECT bound to: TRUE - type: string 
+	Parameter DEC_VALID_COMMA_ONLY bound to: FALSE - type: string 
+	Parameter DMONITOR_CFG bound to: 24'b000000000000101000000000 
+	Parameter ES_CONTROL bound to: 6'b000000 
+	Parameter ES_ERRDET_EN bound to: FALSE - type: string 
+	Parameter ES_EYE_SCAN_EN bound to: TRUE - type: string 
+	Parameter ES_HORZ_OFFSET bound to: 12'b000000000000 
+	Parameter ES_PMA_CFG bound to: 10'b0000000000 
+	Parameter ES_PRESCALE bound to: 5'b00000 
+	Parameter ES_QUALIFIER bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_QUAL_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_SDATA_MASK bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ES_VERT_OFFSET bound to: 9'b000000000 
+	Parameter FTS_DESKEW_SEQ_ENABLE bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_CFG bound to: 4'b1111 
+	Parameter FTS_LANE_DESKEW_EN bound to: FALSE - type: string 
+	Parameter GEARBOX_MODE bound to: 3'b000 
+	Parameter IS_CPLLLOCKDETCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DRPCLK_INVERTED bound to: 1'b0 
+	Parameter IS_GTGREFCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_RXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXPHDLYTSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK2_INVERTED bound to: 1'b0 
+	Parameter IS_TXUSRCLK_INVERTED bound to: 1'b0 
+	Parameter OUTREFCLK_SEL_INV bound to: 2'b11 
+	Parameter PCS_PCIE_EN bound to: FALSE - type: string 
+	Parameter PCS_RSVD_ATTR bound to: 48'b000000000000000000000000000000000000000000000000 
+	Parameter PD_TRANS_TIME_FROM_P2 bound to: 12'b000000111100 
+	Parameter PD_TRANS_TIME_NONE_P2 bound to: 8'b00011001 
+	Parameter PD_TRANS_TIME_TO_P2 bound to: 8'b01100100 
+	Parameter PMA_RSV bound to: 99456 - type: integer 
+	Parameter PMA_RSV2 bound to: 16'b0010000001010000 
+	Parameter PMA_RSV3 bound to: 2'b00 
+	Parameter PMA_RSV4 bound to: 32'b00000000000000000000000000000000 
+	Parameter RXBUFRESET_TIME bound to: 5'b00001 
+	Parameter RXBUF_ADDR_MODE bound to: FULL - type: string 
+	Parameter RXBUF_EIDLE_HI_CNT bound to: 4'b1000 
+	Parameter RXBUF_EIDLE_LO_CNT bound to: 4'b0000 
+	Parameter RXBUF_EN bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_CB_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_RESET_ON_COMMAALIGN bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_EIDLE bound to: FALSE - type: string 
+	Parameter RXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter RXBUF_THRESH_OVFLW bound to: 61 - type: integer 
+	Parameter RXBUF_THRESH_OVRD bound to: FALSE - type: string 
+	Parameter RXBUF_THRESH_UNDFLW bound to: 8 - type: integer 
+	Parameter RXCDRFREQRESET_TIME bound to: 5'b00001 
+	Parameter RXCDRPHRESET_TIME bound to: 5'b00001 
+	Parameter RXCDR_CFG bound to: 72'b000000110000000000000000001000111111111100010000000100000000000000100000 
+	Parameter RXCDR_FR_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXCDR_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RXCDR_LOCK_CFG bound to: 6'b010101 
+	Parameter RXCDR_PH_RESET_ON_EIDLE bound to: 1'b0 
+	Parameter RXDFELPMRESET_TIME bound to: 7'b0001111 
+	Parameter RXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter RXDLY_LCFG bound to: 12'b000000110000 
+	Parameter RXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter RXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter RXISCANRESET_TIME bound to: 5'b00001 
+	Parameter RXLPM_HF_CFG bound to: 14'b00000011110000 
+	Parameter RXLPM_LF_CFG bound to: 14'b00000011110000 
+	Parameter RXOOB_CFG bound to: 7'b0000110 
+	Parameter RXOUT_DIV bound to: 4 - type: integer 
+	Parameter RXPCSRESET_TIME bound to: 5'b00001 
+	Parameter RXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter RXPH_CFG bound to: 24'b000000000000000000000000 
+	Parameter RXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter RXPMARESET_TIME bound to: 5'b00011 
+	Parameter RXPRBS_ERR_LOOPBACK bound to: 1'b0 
+	Parameter RXSLIDE_AUTO_WAIT bound to: 7 - type: integer 
+	Parameter RXSLIDE_MODE bound to: OFF - type: string 
+	Parameter RX_BIAS_CFG bound to: 12'b000000000100 
+	Parameter RX_BUFFER_CFG bound to: 6'b000000 
+	Parameter RX_CLK25_DIV bound to: 5 - type: integer 
+	Parameter RX_CLKMUX_PD bound to: 1'b1 
+	Parameter RX_CM_SEL bound to: 2'b11 
+	Parameter RX_CM_TRIM bound to: 3'b010 
+	Parameter RX_DATA_WIDTH bound to: 20 - type: integer 
+	Parameter RX_DDI_SEL bound to: 6'b000000 
+	Parameter RX_DEBUG_CFG bound to: 12'b000000000000 
+	Parameter RX_DEFER_RESET_BUF_EN bound to: TRUE - type: string 
+	Parameter RX_DFE_GAIN_CFG bound to: 24'b000000100000111111101010 
+	Parameter RX_DFE_H2_CFG bound to: 12'b000000000000 
+	Parameter RX_DFE_H3_CFG bound to: 12'b000001000000 
+	Parameter RX_DFE_H4_CFG bound to: 11'b00011110000 
+	Parameter RX_DFE_H5_CFG bound to: 11'b00011100000 
+	Parameter RX_DFE_KL_CFG bound to: 13'b0000011111110 
+	Parameter RX_DFE_KL_CFG2 bound to: 806439084 - type: integer 
+	Parameter RX_DFE_LPM_CFG bound to: 16'b0000100100000100 
+	Parameter RX_DFE_LPM_HOLD_DURING_EIDLE bound to: 1'b0 
+	Parameter RX_DFE_UT_CFG bound to: 17'b10001111000000000 
+	Parameter RX_DFE_VP_CFG bound to: 17'b00011111100000011 
+	Parameter RX_DFE_XYD_CFG bound to: 13'b0000000000000 
+	Parameter RX_DISPERR_SEQ_MATCH bound to: TRUE - type: string 
+	Parameter RX_INT_DATAWIDTH bound to: 0 - type: integer 
+	Parameter RX_OS_CFG bound to: 13'b0000010000000 
+	Parameter RX_SIG_VALID_DLY bound to: 10 - type: integer 
+	Parameter RX_XCLK_SEL bound to: RXREC - type: string 
+	Parameter SAS_MAX_COM bound to: 64 - type: integer 
+	Parameter SAS_MIN_COM bound to: 36 - type: integer 
+	Parameter SATA_BURST_SEQ_LEN bound to: 4'b0101 
+	Parameter SATA_BURST_VAL bound to: 3'b100 
+	Parameter SATA_CPLL_CFG bound to: VCO_3000MHZ - type: string 
+	Parameter SATA_EIDLE_VAL bound to: 3'b100 
+	Parameter SATA_MAX_BURST bound to: 8 - type: integer 
+	Parameter SATA_MAX_INIT bound to: 21 - type: integer 
+	Parameter SATA_MAX_WAKE bound to: 7 - type: integer 
+	Parameter SATA_MIN_BURST bound to: 4 - type: integer 
+	Parameter SATA_MIN_INIT bound to: 12 - type: integer 
+	Parameter SATA_MIN_WAKE bound to: 4 - type: integer 
+	Parameter SHOW_REALIGN_COMMA bound to: TRUE - type: string 
+	Parameter SIM_CPLLREFCLK_SEL bound to: 3'b001 
+	Parameter SIM_RECEIVER_DETECT_PASS bound to: TRUE - type: string 
+	Parameter SIM_RESET_SPEEDUP bound to: TRUE - type: string 
+	Parameter SIM_TX_EIDLE_DRIVE_LEVEL bound to: X - type: string 
+	Parameter SIM_VERSION bound to: 4.0 - type: string 
+	Parameter TERM_RCAL_CFG bound to: 5'b10000 
+	Parameter TERM_RCAL_OVRD bound to: 1'b0 
+	Parameter TRANS_TIME_RATE bound to: 8'b00001110 
+	Parameter TST_RSV bound to: 32'b00000000000000000000000000000000 
+	Parameter TXBUF_EN bound to: TRUE - type: string 
+	Parameter TXBUF_RESET_ON_RATE_CHANGE bound to: TRUE - type: string 
+	Parameter TXDLY_CFG bound to: 16'b0000000000011111 
+	Parameter TXDLY_LCFG bound to: 12'b000000110000 
+	Parameter TXDLY_TAP_CFG bound to: 16'b0000000000000000 
+	Parameter TXGEARBOX_EN bound to: FALSE - type: string 
+	Parameter TXOUT_DIV bound to: 4 - type: integer 
+	Parameter TXPCSRESET_TIME bound to: 5'b00001 
+	Parameter TXPHDLY_CFG bound to: 24'b000010000100000000100000 
+	Parameter TXPH_CFG bound to: 16'b0000011110000000 
+	Parameter TXPH_MONITOR_SEL bound to: 5'b00000 
+	Parameter TXPMARESET_TIME bound to: 5'b00001 
+	Parameter TX_CLK25_DIV bound to: 5 - type: integer 
+	Parameter TX_CLKMUX_PD bound to: 1'b1 
+	Parameter TX_DATA_WIDTH bound to: 20 - type: integer 
+	Parameter TX_DEEMPH0 bound to: 5'b00000 
+	Parameter TX_DEEMPH1 bound to: 5'b00000 
+	Parameter TX_DRIVE_MODE bound to: DIRECT - type: string 
+	Parameter TX_EIDLE_ASSERT_DELAY bound to: 3'b110 
+	Parameter TX_EIDLE_DEASSERT_DELAY bound to: 3'b100 
+	Parameter TX_INT_DATAWIDTH bound to: 0 - type: integer 
+	Parameter TX_LOOPBACK_DRIVE_HIZ bound to: FALSE - type: string 
+	Parameter TX_MAINCURSOR_SEL bound to: 1'b0 
+	Parameter TX_MARGIN_FULL_0 bound to: 7'b1001110 
+	Parameter TX_MARGIN_FULL_1 bound to: 7'b1001001 
+	Parameter TX_MARGIN_FULL_2 bound to: 7'b1000101 
+	Parameter TX_MARGIN_FULL_3 bound to: 7'b1000010 
+	Parameter TX_MARGIN_FULL_4 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_0 bound to: 7'b1000110 
+	Parameter TX_MARGIN_LOW_1 bound to: 7'b1000100 
+	Parameter TX_MARGIN_LOW_2 bound to: 7'b1000010 
+	Parameter TX_MARGIN_LOW_3 bound to: 7'b1000000 
+	Parameter TX_MARGIN_LOW_4 bound to: 7'b1000000 
+	Parameter TX_PREDRIVER_MODE bound to: 1'b0 
+	Parameter TX_QPI_STATUS_EN bound to: 1'b0 
+	Parameter TX_RXDETECT_CFG bound to: 16'b0001100000110010 
+	Parameter TX_RXDETECT_REF bound to: 3'b100 
+	Parameter TX_XCLK_SEL bound to: TXOUT - type: string 
+	Parameter UCODEER_CLR bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'gtxe2_i' to cell 'GTXE2_CHANNEL' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_gt.vhd:262]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_GTWIZARD_GT' (11#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_gt.vhd:216]
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_cpll_railing' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_cpll_railing.vhd:75' bound to instance 'cpll_railing0_i' of component 'ETH_1000BASEX_cpll_railing' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_multi_gt.vhd:558]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_cpll_railing' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_cpll_railing.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_cpll_railing' (12#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_cpll_railing.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_GTWIZARD_multi_gt' (13#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_multi_gt.vhd:221]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter TX_QPLL_USED bound to: 0 - type: bool 
+	Parameter RX_QPLL_USED bound to: 0 - type: bool 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_TX_STARTUP_FSM' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:78' bound to instance 'gt0_txresetfsm_i' of component 'ETH_1000BASEX_TX_STARTUP_FSM' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:702]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_TX_STARTUP_FSM' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:125]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter TX_QPLL_USED bound to: 0 - type: bool 
+	Parameter RX_QPLL_USED bound to: 0 - type: bool 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: 0 - type: bool 
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_run_phase_alignment_int' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:295]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_tx_fsm_reset_done_int' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:303]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_TXRESETDONE' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:320]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_time_out_wait_bypass' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:328]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_mmcm_lock_reclocked' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:336]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_cplllock' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:356]
+WARNING: [Synth 8-6014] Unused sequential element cplllock_prev_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:351]
+WARNING: [Synth 8-6014] Unused sequential element qplllock_prev_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:352]
+WARNING: [Synth 8-6014] Unused sequential element cplllock_ris_edge_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:370]
+WARNING: [Synth 8-6014] Unused sequential element qplllock_ris_edge_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:385]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_TX_STARTUP_FSM' (14#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_tx_startup_fsm.vhd:125]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter EQ_MODE bound to: LPM - type: string 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter TX_QPLL_USED bound to: 0 - type: bool 
+	Parameter RX_QPLL_USED bound to: 0 - type: bool 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_RX_STARTUP_FSM' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:76' bound to instance 'gt0_rxresetfsm_i' of component 'ETH_1000BASEX_RX_STARTUP_FSM' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:741]
+INFO: [Synth 8-638] synthesizing module 'ETH_1000BASEX_RX_STARTUP_FSM' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:130]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+	Parameter EQ_MODE bound to: LPM - type: string 
+	Parameter STABLE_CLOCK_PERIOD bound to: 5 - type: integer 
+	Parameter RETRY_COUNTER_BITWIDTH bound to: 8 - type: integer 
+	Parameter TX_QPLL_USED bound to: 0 - type: bool 
+	Parameter RX_QPLL_USED bound to: 0 - type: bool 
+	Parameter PHASE_ALIGNMENT_MANUAL bound to: 0 - type: bool 
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_run_phase_alignment_int' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:377]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_tx_fsm_reset_done_int' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:385]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_RXRESETDONE' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:402]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_time_out_wait_bypass' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:410]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_mmcm_lock_reclocked' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:418]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_data_valid' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:426]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_cplllock' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:446]
+WARNING: [Synth 8-6014] Unused sequential element time_out_500us_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:321]
+WARNING: [Synth 8-6014] Unused sequential element cplllock_prev_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:441]
+WARNING: [Synth 8-6014] Unused sequential element qplllock_prev_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:442]
+WARNING: [Synth 8-6014] Unused sequential element cplllock_ris_edge_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:458]
+WARNING: [Synth 8-6014] Unused sequential element qplllock_ris_edge_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:473]
+WARNING: [Synth 8-6014] Unused sequential element refclk_stable_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:506]
+WARNING: [Synth 8-6014] Unused sequential element refclk_stable_count_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:505]
+WARNING: [Synth 8-6014] Unused sequential element pll_reset_asserted_reg was removed.  [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:556]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_RX_STARTUP_FSM' (15#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:130]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_GTWIZARD_init' (16#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard_init.vhd:228]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_GTWIZARD' (17#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_gtwizard.vhd:219]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_transceiver' (18#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_transceiver.vhd:160]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_block_tx_reset_done' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:645]
+	Parameter INITIALISE bound to: 2'b00 
+INFO: [Synth 8-3491] module 'ETH_1000BASEX_sync_block' declared at 'c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_sync_block.vhd:67' bound to instance 'sync_block_rx_reset_done' of component 'ETH_1000BASEX_sync_block' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:652]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX_block' (19#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_block.vhd:156]
+INFO: [Synth 8-256] done synthesizing module 'ETH_1000BASEX' (20#1) [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX.vhd:157]
+WARNING: [Synth 8-3331] design ETH_1000BASEX_RX_STARTUP_FSM has unconnected port QPLLREFCLKLOST
+WARNING: [Synth 8-3331] design ETH_1000BASEX_RX_STARTUP_FSM has unconnected port CPLLREFCLKLOST
+WARNING: [Synth 8-3331] design ETH_1000BASEX_RX_STARTUP_FSM has unconnected port QPLLLOCK
+WARNING: [Synth 8-3331] design ETH_1000BASEX_TX_STARTUP_FSM has unconnected port QPLLREFCLKLOST
+WARNING: [Synth 8-3331] design ETH_1000BASEX_TX_STARTUP_FSM has unconnected port QPLLLOCK
+WARNING: [Synth 8-3331] design ETH_1000BASEX_GTWIZARD_init has unconnected port gt0_cpllreset_in
+WARNING: [Synth 8-3331] design ETH_1000BASEX_GTWIZARD_init has unconnected port gt0_rxusrclk_in
+WARNING: [Synth 8-3331] design ETH_1000BASEX_GTWIZARD_init has unconnected port gt0_rxusrclk2_in
+WARNING: [Synth 8-3331] design RX has unconnected port RXRUNDISP
+WARNING: [Synth 8-3331] design RX has unconnected port RXBUFSTATUS[0]
+WARNING: [Synth 8-3331] design SYNCHRONISE has unconnected port RXBUFSTATUS[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_VALUE[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_BASEX[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port LINK_TIMER_SGMII[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[15]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[14]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[13]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[12]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[11]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[10]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_GT_NOMINAL_LATENCY[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port SPEED_IS_10_100
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port SPEED_IS_100
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port GTX_CLK
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP0[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[6]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[5]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port RX_CODE_GROUP1[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PMA_RX_CLK0
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PMA_RX_CLK1
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PHYAD[4]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PHYAD[3]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PHYAD[2]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PHYAD[1]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port PHYAD[0]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port MDC
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port MDIO_IN
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port CONFIGURATION_VALID
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[15]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[14]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[13]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[12]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[11]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[10]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[9]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[8]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[7]
+WARNING: [Synth 8-3331] design GPCS_PMA_GEN has unconnected port AN_ADV_CONFIG_VECTOR[6]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 882.883 ; gain = 251.789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 882.883 ; gain = 251.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 882.883 ; gain = 251.789
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 140 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/ETH_1000BASEX_board.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/ETH_1000BASEX_board.xdc] for cell 'U0'
+Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/ETH_1000BASEX.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/ETH_1000BASEX_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/ETH_1000BASEX_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1006.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 140 instances were transformed.
+  FD => FDRE: 102 instances
+  FDP => FDPE: 36 instances
+  SRL16 => SRL16E: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1018.102 ; gain = 11.973
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/ETH_1000BASEX_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'SYNCHRONISE'
+INFO: [Synth 8-802] inferred FSM for state register 'USE_ROCKET_IO.TX_RST_SM_reg' in module 'GPCS_PMA_GEN'
+INFO: [Synth 8-802] inferred FSM for state register 'USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg' in module 'GPCS_PMA_GEN'
+INFO: [Synth 8-5544] ROM "MGT_TX_RESET_INT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TX_RST_SM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MGT_RX_RESET_INT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RX_RST_SM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'ETH_1000BASEX_TX_STARTUP_FSM'
+INFO: [Synth 8-5544] ROM "TXUSERRDY" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gttxreset_i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MMCM_RESET" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_fsm_reset_done_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "CPLL_RESET" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "run_phase_alignment_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'CPLL_RESET_reg' into 'QPLL_RESET_reg' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:555]
+INFO: [Synth 8-4471] merging register 'recclk_mon_count_reset_reg' into 'adapt_count_reset_reg' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:299]
+INFO: [Synth 8-4471] merging register 'RXDFELFHOLD_reg' into 'RXDFEAGCHOLD_reg' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:565]
+INFO: [Synth 8-4471] merging register 'RXLPMLFHOLD_reg' into 'RXDFEAGCHOLD_reg' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:566]
+INFO: [Synth 8-4471] merging register 'RXLPMHFHOLD_reg' into 'RXDFEAGCHOLD_reg' [c:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.srcs/sources_1/ip/ETH_1000BASEX/synth/transceiver/ETH_1000BASEX_rx_startup_fsm.vhd:567]
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'ETH_1000BASEX_RX_STARTUP_FSM'
+INFO: [Synth 8-5544] ROM "gtrxreset_i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mmcm_reset_i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "run_phase_alignment_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            loss_of_sync |                    0000000000100 |                             0000
+          comma_detect_1 |                    0010000000000 |                             0001
+           aquire_sync_1 |                    0000000010000 |                             0010
+          comma_detect_2 |                    0000000000001 |                             0011
+           aquire_sync_2 |                    0000000000010 |                             0100
+          comma_detect_3 |                    0000000001000 |                             0101
+         sync_acquired_1 |                    1000000000000 |                             0110
+         sync_acquired_2 |                    0001000000000 |                             0111
+        sync_acquired_2a |                    0100000000000 |                             1000
+         sync_acquired_3 |                    0000001000000 |                             1001
+        sync_acquired_3a |                    0000100000000 |                             1010
+         sync_acquired_4 |                    0000010000000 |                             1011
+        sync_acquired_4a |                    0000000100000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'SYNCHRONISE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                  000000000000001 |                             0000
+                 iSTATE6 |                  000000000000010 |                             0001
+                 iSTATE2 |                  000000000000100 |                             0010
+                  iSTATE |                  000000000001000 |                             0011
+                 iSTATE0 |                  000000000010000 |                             0100
+                iSTATE13 |                  000000000100000 |                             0101
+                iSTATE11 |                  000000001000000 |                             0110
+                 iSTATE9 |                  000000010000000 |                             0111
+                iSTATE10 |                  000000100000000 |                             1000
+                 iSTATE8 |                  000001000000000 |                             1001
+                 iSTATE5 |                  000010000000000 |                             1010
+                 iSTATE3 |                  000100000000000 |                             1011
+                 iSTATE4 |                  001000000000000 |                             1100
+                 iSTATE1 |                  010000000000000 |                             1101
+                iSTATE12 |                  100000000000000 |                             1110
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg' using encoding 'one-hot' in module 'GPCS_PMA_GEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                  000000000000001 |                             0000
+                 iSTATE6 |                  000000000000010 |                             0001
+                 iSTATE2 |                  000000000000100 |                             0010
+                  iSTATE |                  000000000001000 |                             0011
+                 iSTATE0 |                  000000000010000 |                             0100
+                iSTATE13 |                  000000000100000 |                             0101
+                iSTATE11 |                  000000001000000 |                             0110
+                 iSTATE9 |                  000000010000000 |                             0111
+                iSTATE10 |                  000000100000000 |                             1000
+                 iSTATE8 |                  000001000000000 |                             1001
+                 iSTATE5 |                  000010000000000 |                             1010
+                 iSTATE3 |                  000100000000000 |                             1011
+                 iSTATE4 |                  001000000000000 |                             1100
+                 iSTATE1 |                  010000000000000 |                             1101
+                iSTATE12 |                  100000000000000 |                             1110
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'USE_ROCKET_IO.TX_RST_SM_reg' using encoding 'one-hot' in module 'GPCS_PMA_GEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                             0000 |                             0000
+       assert_all_resets |                             0001 |                             0001
+       wait_for_pll_lock |                             0010 |                             0010
+       release_pll_reset |                             0011 |                             0011
+       wait_for_txoutclk |                             0100 |                             0100
+      release_mmcm_reset |                             0101 |                             0101
+       wait_for_txusrclk |                             0110 |                             0110
+         wait_reset_done |                             0111 |                             0111
+      do_phase_alignment |                             1000 |                             1000
+          reset_fsm_done |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'ETH_1000BASEX_TX_STARTUP_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                             0000 |                             0000
+       assert_all_resets |                             0001 |                             0001
+       wait_for_pll_lock |                             0010 |                             0010
+       release_pll_reset |                             0011 |                             0011
+    verify_recclk_stable |                             0100 |                             0100
+      release_mmcm_reset |                             0101 |                             0101
+       wait_for_rxusrclk |                             0110 |                             0110
+         wait_reset_done |                             0111 |                             0111
+      do_phase_alignment |                             1000 |                             1000
+      monitor_data_valid |                             1001 |                             1001
+                fsm_done |                             1010 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'ETH_1000BASEX_RX_STARTUP_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+	               16 Bit    Registers := 6     
+	                8 Bit    Registers := 18    
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 23    
+	                1 Bit    Registers := 172   
++---Muxes : 
+	  15 Input     15 Bit        Muxes := 2     
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 18    
+	   8 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   3 Input      8 Bit        Muxes := 2     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	  11 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 55    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 17    
+	  11 Input      1 Bit        Muxes := 19    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+Module SYNCHRONISE 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 18    
+	   2 Input      1 Bit        Muxes := 2     
+Module RX 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 61    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+Module GPCS_PMA_GEN 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	  15 Input     15 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	  15 Input      1 Bit        Muxes := 2     
+Module ETH_1000BASEX_reset_wtd_timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module ETH_1000BASEX_cpll_railing 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+	               96 Bit    Registers := 1     
+Module ETH_1000BASEX_TX_STARTUP_FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 10    
+	  10 Input      1 Bit        Muxes := 17    
+Module ETH_1000BASEX_RX_STARTUP_FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	  11 Input      1 Bit        Muxes := 19    
+Module ETH_1000BASEX_GTWIZARD_init 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ETH_1000BASEX_transceiver 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 19    
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[11]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[3]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[2]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[10]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[0]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[8]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[1]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[9]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[5]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[13]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[7]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[15]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[6]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[14]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[4]' (FDRE) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/ETH_1000BASEX_core/\gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/TX_CONFIG_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\transceiver_inst/rxclkcorcnt_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/recclk_mon_restart_count_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/recclk_mon_restart_count_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/ETH_1000BASEX_core/\gpcs_pma_inst/DUPLEX_MODE_RSLVD_REG_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/RXDFEAGCHOLD_reg )
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[2]' (FDR) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[1]' (FDR) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[5]' (FDR) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[7]' (FDR) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/ETH_1000BASEX_core/\gpcs_pma_inst/STATUS_VECTOR_reg[12] )
+INFO: [Synth 8-3332] Sequential element (gpcs_pma_inst/FSM_onehot_USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg[14]) is unused and will be removed from module gig_ethernet_pcs_pma_v16_1_6.
+INFO: [Synth 8-3332] Sequential element (gpcs_pma_inst/FSM_onehot_USE_ROCKET_IO.TX_RST_SM_reg[14]) is unused and will be removed from module gig_ethernet_pcs_pma_v16_1_6.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-3886] merging instance 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_K28p5_reg' (FDR) to 'U0/ETH_1000BASEX_core/gpcs_pma_inst/IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER/CONFIG_DATA_reg[3]'
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances U0/\transceiver_inst/gtwizard_inst/U0/gt0_txresetfsm_i/sync_cplllock/data_sync_reg1  and U0/\transceiver_inst/gtwizard_inst/U0/gt0_rxresetfsm_i/sync_cplllock/data_sync_reg1  because of non-equivalent assertions
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                  | RTL Name                                                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|gig_ethernet_pcs_pma_v16_1_6 | gpcs_pma_inst/RX_GMII_AT_TXOUTCLK.RECEIVER_TXOUTCLK/RXDATA_REG5_reg[7]               | 5      | 8     | NO           | NO                 | NO                | 8      | 0       | 
+|ETH_1000BASEX_block          | transceiver_inst/gtwizard_inst/U0/gtwizard_i/cpll_railing0_i/cpllreset_wait_reg[127] | 128    | 1     | NO           | NO                 | YES               | 0      | 4       | 
+|ETH_1000BASEX_block          | transceiver_inst/gtwizard_inst/U0/gtwizard_i/cpll_railing0_i/cpllpd_wait_reg[95]     | 96     | 1     | NO           | NO                 | YES               | 0      | 3       | 
++-----------------------------+--------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |CARRY4        |    40|
+|2     |GTXE2_CHANNEL |     1|
+|3     |LUT1          |    28|
+|4     |LUT2          |    61|
+|5     |LUT3          |    84|
+|6     |LUT4          |    84|
+|7     |LUT5          |    79|
+|8     |LUT6          |    91|
+|9     |SRL16         |     2|
+|10    |SRL16E        |     8|
+|11    |SRLC32E       |     7|
+|12    |FD            |   102|
+|13    |FDCE          |    16|
+|14    |FDP           |    36|
+|15    |FDPE          |     4|
+|16    |FDRE          |   537|
+|17    |FDSE          |    23|
++------+--------------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------------+--------------------------------+------+
+|      |Instance                                          |Module                          |Cells |
++------+--------------------------------------------------+--------------------------------+------+
+|1     |top                                               |                                |  1203|
+|2     |  U0                                              |ETH_1000BASEX_block             |  1203|
+|3     |    ETH_1000BASEX_core                            |gig_ethernet_pcs_pma_v16_1_6    |   433|
+|4     |      gpcs_pma_inst                               |GPCS_PMA_GEN                    |   433|
+|5     |        \IS_2_5G_DISABLED_PRE_SHRINK.TRANSMITTER  |TX                              |   127|
+|6     |        \MGT_RESET.SYNC_ASYNC_RESET               |reset_sync_block                |     7|
+|7     |        \MGT_RESET.SYNC_ASYNC_RESET_RECCLK        |reset_sync_block_17             |     7|
+|8     |        \MGT_RESET.SYNC_SOFT_RESET_RECCLK         |reset_sync_block_18             |     6|
+|9     |        \RX_GMII_AT_TXOUTCLK.RECEIVER_TXOUTCLK    |RX                              |   141|
+|10    |        \RX_GMII_AT_TXOUTCLK.SYNCHRONISATION      |SYNCHRONISE                     |    47|
+|11    |        SYNC_SIGNAL_DETECT                        |sync_block                      |     7|
+|12    |    sync_block_rx_reset_done                      |ETH_1000BASEX_sync_block        |     6|
+|13    |    sync_block_tx_reset_done                      |ETH_1000BASEX_sync_block_0      |     7|
+|14    |    transceiver_inst                              |ETH_1000BASEX_transceiver       |   757|
+|15    |      gtwizard_inst                               |ETH_1000BASEX_GTWIZARD          |   530|
+|16    |        U0                                        |ETH_1000BASEX_GTWIZARD_init     |   530|
+|17    |          gt0_rxresetfsm_i                        |ETH_1000BASEX_RX_STARTUP_FSM    |   231|
+|18    |            sync_RXRESETDONE                      |ETH_1000BASEX_sync_block_10     |     6|
+|19    |            sync_cplllock                         |ETH_1000BASEX_sync_block_11     |     9|
+|20    |            sync_data_valid                       |ETH_1000BASEX_sync_block_12     |    18|
+|21    |            sync_mmcm_lock_reclocked              |ETH_1000BASEX_sync_block_13     |     8|
+|22    |            sync_run_phase_alignment_int          |ETH_1000BASEX_sync_block_14     |     6|
+|23    |            sync_time_out_wait_bypass             |ETH_1000BASEX_sync_block_15     |     6|
+|24    |            sync_tx_fsm_reset_done_int            |ETH_1000BASEX_sync_block_16     |     6|
+|25    |          gt0_txresetfsm_i                        |ETH_1000BASEX_TX_STARTUP_FSM    |   264|
+|26    |            sync_TXRESETDONE                      |ETH_1000BASEX_sync_block_4      |     6|
+|27    |            sync_cplllock                         |ETH_1000BASEX_sync_block_5      |    11|
+|28    |            sync_mmcm_lock_reclocked              |ETH_1000BASEX_sync_block_6      |     8|
+|29    |            sync_run_phase_alignment_int          |ETH_1000BASEX_sync_block_7      |     6|
+|30    |            sync_time_out_wait_bypass             |ETH_1000BASEX_sync_block_8      |     6|
+|31    |            sync_tx_fsm_reset_done_int            |ETH_1000BASEX_sync_block_9      |     6|
+|32    |          gtwizard_i                              |ETH_1000BASEX_GTWIZARD_multi_gt |    11|
+|33    |            cpll_railing0_i                       |ETH_1000BASEX_cpll_railing      |    10|
+|34    |            gt0_GTWIZARD_i                        |ETH_1000BASEX_GTWIZARD_GT       |     1|
+|35    |      reclock_encommaalign                        |ETH_1000BASEX_reset_sync        |     6|
+|36    |      reclock_rxreset                             |ETH_1000BASEX_reset_sync_1      |     6|
+|37    |      reclock_txreset                             |ETH_1000BASEX_reset_sync_2      |     6|
+|38    |      reset_wtd_timer                             |ETH_1000BASEX_reset_wtd_timer   |    58|
+|39    |      sync_block_data_valid                       |ETH_1000BASEX_sync_block_3      |     6|
++------+--------------------------------------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 367 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1018.102 ; gain = 251.789
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1018.102 ; gain = 387.008
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 180 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 140 instances were transformed.
+  FD => FDRE: 102 instances
+  FDP => FDPE: 36 instances
+  SRL16 => SRL16E: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+160 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1031.371 ; gain = 643.105
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.371 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/ETH_1000BASEX_synth_1/ETH_1000BASEX.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ETH_1000BASEX, cache-ID = 7c6e985632aa268f
+INFO: [Coretcl 2-1174] Renamed 38 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1031.371 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DELL/Desktop/mft_k7_project/9.26/project_1_cppf_sitcp/project_1_cppf_sitcp.runs/ETH_1000BASEX_synth_1/ETH_1000BASEX.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ETH_1000BASEX_utilization_synth.rpt -pb ETH_1000BASEX_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 26 22:02:59 2024...

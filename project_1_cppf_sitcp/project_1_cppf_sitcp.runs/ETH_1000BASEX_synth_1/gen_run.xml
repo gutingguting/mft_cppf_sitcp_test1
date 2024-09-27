@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ETH_1000BASEX_synth_1" LaunchPart="xc7k70tfbg484-1" LaunchTime="1727359338">
+  <File Type="PA-TCL" Name="ETH_1000BASEX.tcl"/>
+  <File Type="REPORTS-TCL" Name="ETH_1000BASEX_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ETH_1000BASEX.vds"/>
+  <File Type="RDS-UTIL" Name="ETH_1000BASEX_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ETH_1000BASEX_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ETH_1000BASEX.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ETH_1000BASEX">
+    <File Path="$PSRCDIR/sources_1/ip/ETH_1000BASEX/ETH_1000BASEX.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ETH_1000BASEX"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ETH_1000BASEX">
+    <File Path="$PSRCDIR/sources_1/ip/ETH_1000BASEX/ETH_1000BASEX.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ETH_1000BASEX"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
